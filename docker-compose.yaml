@@ -1,0 +1,6 @@
+services:
+  frontend:
+    build: .
+    container_name: testing
+    ports:
+      - "13000:3000"
